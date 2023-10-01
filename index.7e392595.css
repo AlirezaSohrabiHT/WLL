@@ -821,6 +821,77 @@ body {
   width: 50px !important;
 }
 
+#ticketError {
+  direction: rtl;
+  color: red;
+  text-align: right;
+  font-family: Yekan Bakh-Medium, Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#dateError {
+  direction: rtl;
+  color: red;
+  text-align: right;
+  margin-left: 60px;
+  font-family: Yekan Bakh-Medium, Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#nameError {
+  direction: rtl;
+  color: red;
+  text-align: right;
+  margin-left: 175px;
+  font-family: Yekan Bakh-Medium, Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#phoneError {
+  direction: rtl;
+  color: red;
+  text-align: right;
+  margin-left: 205px;
+  font-family: Yekan Bakh-Medium, Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#codeError {
+  direction: rtl;
+  color: red;
+  text-align: right;
+  margin-left: 195px;
+  font-family: Yekan Bakh-Medium, Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#phonePeygiriError, #codePeygiriError {
+  direction: rtl;
+  color: red;
+  text-align: right;
+  margin-left: 30px;
+  font-family: Yekan Bakh-Medium, Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .date {
   flex-direction: row-reverse;
   display: flex;
@@ -1167,7 +1238,7 @@ body {
   flex: none;
   align-self: stretch;
   align-items: center;
-  gap: 32px;
+  gap: 6px;
   width: 100%;
   padding: 24px 84px;
   display: flex;
@@ -1400,7 +1471,7 @@ body {
 .ticket-web .frame-21 {
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 6px;
   width: 416px;
   display: flex;
   position: relative;
@@ -1517,7 +1588,7 @@ body {
   flex-direction: column;
   flex: none;
   align-self: stretch;
-  align-items: flex-start;
+  align-items: center;
   gap: 8px;
   width: 100%;
   display: flex;
@@ -1589,7 +1660,7 @@ body {
   justify-content: center;
   align-self: stretch;
   align-items: center;
-  gap: 32px;
+  gap: 6px;
   width: 100%;
   display: flex;
   position: relative;
